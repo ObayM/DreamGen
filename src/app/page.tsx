@@ -1,4 +1,3 @@
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:3025739990.
 'use client'
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -9,8 +8,13 @@ export default function ModernGallery() {
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadingFeed, setIsLoadingFeed] = useState(true);
   const [generatedImage, setGeneratedImage] = useState(null);
-  const [imageUrls, setImageUrls] = useState([]);
-
+  const [imageUrls, setImageUrls] = useState<
+    {
+      id: string;
+      url: string;
+    }[]
+  >([]);
+// linkedin
   useEffect(() => {
     fetchImages();
   }, []);

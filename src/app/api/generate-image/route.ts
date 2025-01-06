@@ -7,7 +7,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const { text } = body;
-    const url = new URL("https://obay-developer--sd-demo-model-generate-image.modal.run/")
+    const url = new URL("https://obay-zamir--sd-demo-model-generate-image.modal.run/")
 
     url.searchParams.set("prompt", text)
     console.log("Requested Url : ", url.toString())

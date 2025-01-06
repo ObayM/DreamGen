@@ -71,11 +71,11 @@ class Model:
 
 
 def keep_warm():
-    health_url="https://obay-developer--sd-demo-model-health.modal.run/"
-    generate_url = "https://obay-developer--sd-demo-model-generate-image.modal.run/"
+    health_url="https://obay-zamir--sd-demo-model-health.modal.run/"
+    generate_url = "https://obay-zamir--sd-demo-model-generate-image.modal.run/"
 
     health_response = requests.get(health_url)
-    print(f"Heatlh check at {health_response.json()["timestamp"]}")
+    print(f"Heatlh check at {health_response.json()['timestamp']}")
 
     headers={"X-API-Key":os.environ["API_KEY"]}
     generate_response = requests.get(generate_url,headers=headers)
