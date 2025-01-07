@@ -5,7 +5,7 @@ import requests
 from datetime import datetime, timezone
 from fastapi import Response, HTTPException, Query, Request
 
-
+# Paradigm arrpheus
 
 def download_model():
     from diffusers import AutoPipelineForText2Image

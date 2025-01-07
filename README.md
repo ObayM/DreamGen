@@ -1,8 +1,14 @@
 # Pentagram: Instagram, but with AI Images
 
+## Watch the demo
+
+
+
 ## Features
 Turn your imagination into images
-Easy to use
+
+Easy to use : Just type your prompt in the input section
+
 Fast image generations (500ms to 2s)
 
 ## Getting Started
