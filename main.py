@@ -5,7 +5,6 @@ import requests
 from datetime import datetime, timezone
 from fastapi import Response, HTTPException, Query, Request
 
-# Paradigm arrpheus
 
 def download_model():
     from diffusers import AutoPipelineForText2Image
@@ -68,6 +67,8 @@ class Model:
     schedule=modal.Cron("0 * * * *"),
     secrets=[modal.Secret.from_name("API_KEY")],
 ) 
+
+
 
 
 def keep_warm():

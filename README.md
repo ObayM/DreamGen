@@ -1,15 +1,18 @@
-# Pentagram: Instagram, but with AI Images
+## If the demo is not working you can see the video demo [here](https://www.youtube.com/watch?v=GFeqw68_C5s)
 
-## Watch the demo
+## Screenshots
 
-
+<img src="https://cloud-46hrijgkb-hack-club-bot.vercel.app/0image.png" alt="Screenshot of DreamGen app">
 
 ## Features
 Turn your imagination into images
 
 Easy to use : Just type your prompt in the input section
-
 Fast image generations (500ms to 2s)
+
+Tech Stack :
+Backend : Python , Modal (serverless GPU)
+Frontend : Nextjs, React, Tailwind CSS, Blob Container
 
 ## Getting Started
 
